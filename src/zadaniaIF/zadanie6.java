@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class zadanie6 {
     public static void main(String[] args) {
         Scanner klawiatura = new Scanner(System.in);
-        double IloscSekund;
-        double Minuta = 0;
-        double Godzina = 0;
-        double Doba = 0;
+        int IloscSekund;
+        int Minuta = 0;
+        int Godzina = 0;
+        int  Doba = 0;
         System.out.println("Podaj ilosc sekund");
-        IloscSekund = klawiatura.nextDouble();
+        IloscSekund = klawiatura.nextInt();
 
         if(IloscSekund>60){
 
