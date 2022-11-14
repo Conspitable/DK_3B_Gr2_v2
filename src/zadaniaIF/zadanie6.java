@@ -12,6 +12,7 @@ public class zadanie6 {
         if(IloscSekund>60){
             Minuta = IloscSekund/60;
             System.out.println(IloscSekund+"Tyle sekund to "+"Tyle minut: "+Minuta);
+            //2
 
         }
 
